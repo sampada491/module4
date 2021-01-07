@@ -64,9 +64,9 @@ for (var name in names) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstletter=='j') {
-    // byeSpeaker.SpeakGoodBye();
+     byeSpeaker.SpeakGoodBye();
   } else {
-    // helloSpeaker.SpeakHello();
+    helloSpeaker.SpeakHello();
   }
 }
 
