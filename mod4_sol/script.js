@@ -46,7 +46,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 for (var name in names) {
  var firstLetter = ((names[name]).charAt(0)).toLowerCase();
- if (firstletter=='j') {
+ if (firstletter==='j') {
      byeSpeaker.Speak(names[name]);
   } else {
     helloSpeaker.Speak(names[name]);
