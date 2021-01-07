@@ -52,7 +52,7 @@ for (var name in names) {
     helloSpeaker.Speak(names[name]);
   }
  
-
+}
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
