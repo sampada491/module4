@@ -35,7 +35,7 @@ WARNING!!! WARNING!!!
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
 
-(function(window)
+(function()
  {
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
  
@@ -47,9 +47,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 for (var name in names) {
  var firstLetter = ((names[name]).charAt(0)).toLowerCase();
  if (firstletter=='j') {
-     window.byeSpeaker.Speak(names[name]);
+     byeSpeaker.Speak(names[name]);
   } else {
-    window.helloSpeaker.Speak(names[name]);
+    helloSpeaker.Speak(names[name]);
   }
  
 }
@@ -70,4 +70,4 @@ for (var name in names) {
   
 
 
-      })(window);
+      })();
